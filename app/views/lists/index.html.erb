@@ -32,7 +32,7 @@
 
 <div class="row">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-    <ul class="cards mt-4">
+    <ul class="cards mt-4" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://image.shutterstock.com/image-illustration/popcorn-cinema-reel-disposable-cup-260nw-626627051.jpg')">
       <% @lists.each do |list| %>
         <li class="list-group-item">
           <%= link_to list.name, list_path(list) %>
